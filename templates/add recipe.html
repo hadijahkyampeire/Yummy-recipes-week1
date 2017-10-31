@@ -9,8 +9,12 @@
 </head>
  
 <body>
-    <h2 >Python Flask Yummy Recipes App</h2>
-        
+ 
+    <div class="container">
+        <div class="header">
+            
+            <h2 >Python Flask Yummy Recipes App</h2>
+        </div>
         <section>
             <form method="post" action="">
                 <fieldset>
@@ -20,7 +24,7 @@
  
                     <!-- Text input-->
                     
-                        </fieldset><h3><label >Recipe category</label></h3>
+                        <h3><label >Recipe category</label></h3>
                             <input type="text" name="title"  placeholder="recipe category" >
                     <br>
  
@@ -38,13 +42,13 @@
  
                     <!-- Button -->
                         
-                            <input name="create"  type="submit" value="Save Your Recipe category" />
+                            <input name="create" id="save" type="submit" value="Save Your Recipe category" />
                     <br><br>
                     </fieldset>
                     </form>
 
  
-                    <input type="button"  value="View Your saved Recipes" />
+                    <input type="button"  id="view" value="View Your saved Recipes" />
 
         </section>
         <footer class="footer">
